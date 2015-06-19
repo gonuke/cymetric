@@ -1,4 +1,5 @@
-from cymetric.root_metrics import root_metric
+from cymetric.evaluator import register_metric
+from cymetric.root_metrics import root_metric, _genrootclass
 
 agentstate_brightlite_fuelfabfacilityinfo = root_metric(
     name='AgentState_Brightlite_FuelfabFacilityInfo')
